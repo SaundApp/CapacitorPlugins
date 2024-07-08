@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor/keyboard",
-  "version": "6.0.1",
+  "name": "@saundapp/keyboard",
+  "version": "6.0.2",
   "description": "The Keyboard API provides keyboard display and visibility control, along with event tracking when the keyboard shows and hides.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,16 +13,16 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorKeyboard.podspec"
+    "SaundappKeyboard.podspec"
   ],
   "author": "Ionic <hi@ionicframework.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/capacitor-plugins.git"
+    "url": "git+https://github.com/SaundApp/capacitor-plugins.git"
   },
   "bugs": {
-    "url": "https://github.com/ionic-team/capacitor-plugins/issues"
+    "url": "https://github.com/SaundApp/capacitor-plugins/issues"
   },
   "keywords": [
     "capacitor",
@@ -43,8 +43,7 @@
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
-    "prepublishOnly": "npm run build",
-    "publish:cocoapod": "pod trunk push ./CapacitorKeyboard.podspec --allow-warnings"
+    "publish:cocoapod": "pod trunk push ./SaundAppKeyboard.podspec --allow-warnings"
   },
   "devDependencies": {
     "@capacitor/android": "^6.0.0",

@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitorKeyboard',
+      name: 'saundappKeyboard',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },
