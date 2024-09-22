@@ -142,7 +142,7 @@ double stageManagerOffset;
     }
   }
 
-  double duration = [[notification.userInfo valueForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue]-0.1;
+  double duration = [[notification.userInfo valueForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue]-0.5;
   [self setKeyboardHeight:height delay:duration];
   [self resetScrollView];
 

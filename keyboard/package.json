@@ -1,6 +1,6 @@
 {
   "name": "@saundapp/keyboard",
-  "version": "6.0.3",
+  "version": "6.0.5",
   "description": "The Keyboard API provides keyboard display and visibility control, along with event tracking when the keyboard shows and hides.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -59,7 +59,6 @@
     "prettier-plugin-java": "~1.0.2",
     "rimraf": "^3.0.0",
     "rollup": "^2.29.0",
-    "swiftlint": "^1.0.1",
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
