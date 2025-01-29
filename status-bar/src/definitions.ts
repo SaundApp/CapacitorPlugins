@@ -8,6 +8,10 @@ declare module '@capacitor/cli' {
     StatusBar?: {
       /**
        * Whether the statusbar is overlaid or not.
+       * For applications targeting Android 15, this property has no effect unless
+       * the property windowOptOutEdgeToEdgeEnforcement is added to the application layout file.
+       * Otherwise, the application assumes always overlays as true.
+       * More details in https://developer.android.com/reference/android/R.attr#windowOptOutEdgeToEdgeEnforcement
        *
        * @since 1.0.0
        * @default true
@@ -65,7 +69,6 @@ export enum Style {
    * The style is based on the device appearance.
    * If the device is using Dark mode, the statusbar text will be light.
    * If the device is using Light mode, the statusbar text will be dark.
-   * On Android the default will be the one the app was launched with.
    *
    * @since 1.0.0
    */
